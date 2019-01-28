@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
