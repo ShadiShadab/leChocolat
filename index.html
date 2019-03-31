@@ -7,10 +7,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- build:css css/main.css -->
+    <!-- Bootstrap CSS -->
+<!-- build:css css/main.css -->
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 <link href="css/styles.css" rel="stylesheet">
+<link href="css/menu.css" rel="stylesheet">
 <!-- endbuild -->
     <style>
         #modalClicker {
@@ -34,8 +36,8 @@
                             <span class="fa fa-home fa-lg"></span> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html">
                             <span class="fa fa-info fa-lg"> </span> About</a></li>
-                    <li class="nav-item"><a class="btn btn-warning" class="nav-link" href="./menu.html">
-                            <span class="fa fa-list fa-lg"> </span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./menu.html">
+                            <span class="fa fa-list fa-lg"></span> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="./contactus.html">
                             <span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
@@ -110,33 +112,33 @@
                             </label>
                             <div class="col-12 col-sm-9">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                        value="option1">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">1</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                        value="option2">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">2</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                                        value="option3">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
                                     <label class="form-check-label" for="inlineRadio3">3 </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
-                                        value="option5">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio4" value="option5">
                                     <label class="form-check-label" for="inlineRadio4">4</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
-                                        value="option5">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio5" value="option5">
                                     <label class="form-check-label" for="inlineRadio5">5</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6"
-                                        value="option5">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio6" value="option5">
                                     <label class="form-check-label" for="inlineRadio6">6 </label>
                                 </div>
                             </div>
@@ -149,7 +151,8 @@
                             <!-- Date -->
                             <div class="input-group col-12 col-sm-4">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" id="date"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    <span class="input-group-text" id="date"><i class="fa fa-calendar"
+                                            aria-hidden="true"></i></span>
                                 </div>
                                 <input type="date" class="form-control" placeholder="Date" id="date'">
                             </div>
@@ -157,7 +160,8 @@
                             <!-- Time -->
                             <div class="input-group col-12 col-sm-4">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" id="time"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                                    <span class="input-group-text" id="time"><i class="fa fa-clock-o"
+                                            aria-hidden="true"></i></span>
                                 </div>
                                 <input type="time" class="form-control" placeholder="Time" id="time'">
                             </div>
@@ -210,7 +214,8 @@
                 <!-- Reserve your baskets yellow button -->
                 <div class="col-12 col-sm-3 ">
                     <!-- <a href="#reserve-form" class="btn btn-warning">Reserve your baskets</a> -->
-                    <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#basketsModal">
+                    <a type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal"
+                        data-target="#basketsModal">
                         Reserve your baskets
                     </a> </div>
 
@@ -279,15 +284,16 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                    <!-- stop and cycle controls -->
+                    
                     <div class="btn-group" id="carouselButtons">
                         <button class="btn btn-danger btn-sm" id="carousel-pause">
-                            <span class="fa fa-pause"></span>
+                          <span class="fa fa-pause"></span>
                         </button>
                         <button class="btn btn-danger btn-sm" id="carousel-play">
-                            <span class="fa fa-play"></span>
+                          <span class="fa fa-play"></span>
                         </button>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -299,7 +305,8 @@
             </div>
             <div class="col-sm col-md ">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg"
+                        alt="85% DARK CHOCOLATE">
                     <div class="media-body">
                         <h2 class="mt-0">85% DARK CHOCOLATE
                             <span class="badge badge-danger">HOT</span>
@@ -320,7 +327,8 @@
             </div>
             <div class="col-sm col-md ">
                 <div class="media ">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center " src="images/promotion.jpg" alt="Our basket">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center " src="images/promotion.jpg"
+                        alt="Our basket">
                     <div class="media-body">
                         <h2 class="mt-0">Our basket
                             <span class="badge badge-danger">NEW</span>
@@ -340,7 +348,8 @@
             </div>
             <div class="col-sm col-md ">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png" alt="Vasilis Wilson">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png"
+                        alt="Vasilis Wilson">
                     <div class="media-body">
                         <h2 class="mt-0">Vasilis Wilson</h2>
                         <p class="col d-none d-sm-block">Vasilis is well informed of all the current
@@ -361,7 +370,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="./aboutus.html">About</a></li>
-                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="#">Menu</a></li>
                         <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
@@ -373,7 +382,8 @@
                         HAWAII<br>
                         <i class="fa fa-phone fa-lg"></i>: +987 6543 2100<br>
                         <i class="fa fa-fax fa-lg"></i>: +987 6543 2101<br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                            href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
                     </address>
                 </div>
                 <div class="col col-sm-4">
@@ -402,13 +412,13 @@
         </div>
     </footer>
 
-   <!-- build:js js/main.js -->
- <script src="node_modules/jquery/dist/jquery.min.js"></script>
- <script src="node_modules/tether/dist/js/tether.min.js"></script>
- <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- <script src="js/scripts.js"></script>
- <!-- endbuild -->
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/tether/dist/js/tether.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<!-- endbuild -->
 </body>
 
 </html>
